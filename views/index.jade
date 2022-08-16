@@ -1,0 +1,18 @@
+//- extends layout
+//- block content
+//-   h1= title
+//-   body 訂單編號 #{order.orderId} 金額 #{order.amount} 商品名稱#{order.packages[0].id}
+//-     form(action="/createOrder/#{order.orderId}", method="post")
+//-         button(type="submit") 送出表單
+extends layout
+block content
+  h1= title
+  - var orderid = 0;
+  ul
+    while orderid < OrderCount
+      - orderid++
+      h1 id #{order[orderid].packages[0].id}
+      h1  #{order[orderid].currency} : #{order[orderid].amount} 
+      h1 商品名稱： #{order[orderid].packages[0].products[0].name}
+      h2
+        a(href="/checkout/#{orderid}") 商品下單

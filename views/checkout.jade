@@ -1,0 +1,6 @@
+extends layout
+block content
+  h1= title
+  body 訂單編號 #{order.orderId} 金額 #{order.amount}
+    form(action="/createOrder/#{order.orderId}", method="post")
+        button(type="submit") 送出表單
