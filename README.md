@@ -17,3 +17,4 @@ npm i
 
 ## 4. Notice
 此LinePay為工程師測試號，因此掃二維不會扣錢
+![alt text](http://url/to/img.png)
