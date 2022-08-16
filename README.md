@@ -17,4 +17,4 @@ npm i
 
 ## 4. Notice
 此LinePay為工程師測試號，因此掃二維不會扣錢
-![alt text](https://github./C107156116/LinePayFetchMoney/blob/main/image/image_1.jpg)
+![alt text](https://github.com/C107156116/LinePayFetchMoney/blob/main/image/image_1.jpg)
