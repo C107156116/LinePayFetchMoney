@@ -13,4 +13,7 @@ npm i
 
 ## 3. 啟動專案
 
-輸入 `npm start`，預設即可在 `http://localhost:3000/checkout/1` 的路徑下建立訂單，並開啟 LINE Pay 的連結。
+輸入 `npm start`，預設即可在 `http://localhost:3000/` 的路徑下建立訂單，並開啟 LINE Pay 的連結。
+
+## 4. Notice
+此LinePay為工程師測試號，因此掃二維不會扣錢
